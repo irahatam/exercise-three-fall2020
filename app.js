@@ -1,7 +1,10 @@
 const express = require('express');
 
 const app = express();
-// ***** port 3000 is what CRA uses, so we can run these at the same time if it's 4000 ***** //
+/* 
+port 3000 is what CRA uses, so we can run these at the 
+same time if it's 4000 
+*/
 const port = 4000;
 
 const indexRoute = require('./routes/index.js');
